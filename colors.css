@@ -1,0 +1,40 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    --hue-primary: 20;
+    --elevation: 0;
+}
+
+.light .paper{
+    background: hsla(calc(var(--hue-primary)), calc(100% - 94.5% * var(--elevation) + 26.9% * var(--elevation) * var(--elevation)), calc(98% - 3.92% * var(--elevation)), 1);
+    color: hsla(calc(var(--hue-primary)), 14.29%, calc(4.53% + 6.56% * var(--elevation)), 1);
+}
+
+.dark .paper{
+    background: hsla(calc(var(--hue-primary)), 11.11%, calc(9% + 4.5% * var(--elevation)), 1);
+    color: hsla(calc(var(--hue-primary)), calc(32.2% - 17.8% * var(--elevation) + 3.94% * var(--elevation) * var(--elevation)), calc(92.6% - 4.87% * var(--elevation)), 1);
+}
+
+.primary {
+    background: hsla(calc(var(--hue-primary)), 100%, calc(77.5% + 10% * var(--elevation)), 1);
+    color: hsla(calc(var(--hue-primary)),  100%, calc(6.42% + 1.75% * var(--elevation)), 1);
+}
+
+.secondary {
+    background: hsla(calc(var(--hue-primary) + 180), 100%, calc(77.5% + 10% * var(--elevation)), 1);
+    color: hsla(calc(var(--hue-primary) + 180),  100%, calc(6.42% + 1.75% * var(--elevation)), 1);
+}
+
+.e0{
+    --elevation: 0;
+}
+
+.e1{
+    --elevation: 1;
+}
+
+.e2{
+    --elevation: 2;
+}
