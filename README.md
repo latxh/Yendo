@@ -1,2 +1,3 @@
-# Yendo
-Yendo Component Library 
+# Tempered UI
+
+Cayendo Component Library; Work in progress...
